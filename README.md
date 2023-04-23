@@ -43,7 +43,7 @@ No código apresentado, temos a função EventReset() que realiza uma mutação 
     print(apiEndpoint.result);
 ```
 
-Após a definição da query, a função chama o método "api.dao()" que é responsável por executar a query. Esse método recebe a query definida anteriormente e as variáveis definidas no início da função. Ele retorna um objeto do tipo "api.ResponseModel" que contém a resposta recebida do servidor GraphQL.
+Após a definição da query, a função chama o método "api.Dao()" que é responsável por executar a query. Esse método recebe a query definida anteriormente e as variáveis definidas no início da função. Ele retorna um objeto do tipo "apiResponse" que contém a resposta recebida do servidor GraphQL.
 
 Em seguida, o código faz uma verificação para garantir que a resposta recebida seja válida. Caso contrário, é lançada uma exceção informando que algo deu errado na execução da query.
 
